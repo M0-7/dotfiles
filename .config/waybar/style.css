@@ -5,18 +5,17 @@
     font-family: "JetBrains Mono", FontAwesome, sans-serif;
     font-size: 13px;
     border: none;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 window#waybar {
     background: @background-darker;
     color: @foreground;
     transition-property: background-color;
-
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 3px;
     background: @background;
     color: @foreground;
 }
@@ -71,7 +70,6 @@ window#waybar {
     padding: 0 4px;
 }
 
-
 @keyframes blink {
     to {
         background-color: #ffffff;
@@ -92,26 +90,4 @@ label:focus {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
-}
-
-
-#privacy {
-    padding: 0;
-}
-
-#privacy-item {
-    padding: 0 5px;
-    color: white;
-}
-
-#privacy-item.screenshare {
-    background-color: #cf5700;
-}
-
-#privacy-item.audio-in {
-    background-color: #1ca000;
-}
-
-#privacy-item.audio-out {
-    background-color: #0069d4;
 }
