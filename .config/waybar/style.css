@@ -2,21 +2,21 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "JetBrains Mono", FontAwesome, sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
     font-size: 13px;
-    border: none;
     font-weight: bold;
 }
 
 window#waybar {
     background: @background-darker;
     color: @foreground;
-    transition-property: background-color;
+    border-radius: 0px;
 }
 
 #workspaces button {
     padding: 0 3px;
     background: @background;
+    border-radius: 1px;
     color: @foreground;
 }
 #workspaces button:hover {
@@ -26,44 +26,21 @@ window#waybar {
 }
 #workspaces button.active {
     background:@purple;
+    border-radius: 3px;
 }
 #workspaces button.urgent {
     background: @red;
 }
 
-#mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
-}
-
 #clock,
 #battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
 #backlight,
 #network,
 #pulseaudio,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#mpd {
+#tray {
     padding: 0 10px;
     color: @foreground;
-}
-
-#window,
-#workspaces {
-    margin: 0 4px;
-}
-
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+    border-radius: 3px;
 }
 
 #clock {
@@ -77,10 +54,13 @@ window#waybar {
     }
 }
 
+#battery.critical,
+#battery.urgent {
+  background-color: #F44336;
+}
 
-
-label:focus {
-    background-color: #000000;
+#battery.charging {
+    background-color: #66BB6A;
 }
 
 #tray > .passive {

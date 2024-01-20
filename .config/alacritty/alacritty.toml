@@ -4,8 +4,7 @@ import = ["~/.config/alacritty/dracula.toml"]
 [window]
 padding = { x = 5, y = 5 }
 decorations = "None"
-opacity = 1.0
-blur = false
+opacity = 0.90
 
 [font]
 normal = { family = "JetBrains Mono", style = "Medium" }

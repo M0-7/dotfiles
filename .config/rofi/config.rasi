@@ -27,6 +27,7 @@ configuration {
     border-color:     @bordercolor;
     padding:          15;
 }
+
 #mainbox {
     border:  0;
     padding: 0;
@@ -113,7 +114,7 @@ configuration {
 #entry {
     spacing:    0;
     text-color: @foreground;
-    placeholder: "Search...";
+    placeholder: "Search... 󰀝";
 }
 #prompt {
     spacing:    0;
