@@ -1,73 +1,42 @@
-@import url("./colors.css");
-
-* {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 13px;
-    font-weight: bold;
+window {
+	font-family: JetBrains Mono;
+	background-color: rgba(30, 30, 46, 0.5);
+	color: #f8f8f2;
+	font-size: 14pt;
 }
 
-window#waybar {
-    background: @background-darker;
-    color: @foreground;
-    border-radius: 0px;
+button {
+    color: #f8f8f2;
+	background-color: rgba(30, 31, 41, 230);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	border: none;
+	margin: 5px;
 }
 
-#workspaces button {
-    padding: 0 3px;
-    background: @background;
-    border-radius: 1px;
-    color: @foreground;
-}
-#workspaces button:hover {
-    box-shadow: inherit;
-    text-shadow: inherit;
-    background: @selection;
-}
-#workspaces button.active {
-    background:@purple;
-    border-radius: 3px;
-}
-#workspaces button.urgent {
-    background: @red;
+button:focus, button:active {
+	background-color: #bd93f9;
+	outline-style: none;
 }
 
-#clock,
-#battery,
-#backlight,
-#network,
-#pulseaudio,
-#tray {
-    padding: 0 10px;
-    color: @foreground;
-    border-radius: 3px;
+#logout {
+    background-image: image(url("./logout.png"));
+}
+#logout:focus {
+    background-image: image(url("./logout-hover.png"));
 }
 
-#clock {
-    padding: 0 4px;
+#shutdown {
+    background-image: image(url("./power.png"));
+}
+#shutdown:focus {
+    background-image: image(url("./power-hover.png"));
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+#reboot {
+    background-image: image(url("./restart.png"));
 }
-
-#battery.critical,
-#battery.urgent {
-  background-color: #F44336;
-}
-
-#battery.charging {
-    background-color: #66BB6A;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
+#reboot:focus {
+    background-image: image(url("./restart-hover.png"));
 }
