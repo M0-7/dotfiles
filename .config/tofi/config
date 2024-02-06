@@ -1,0 +1,23 @@
+# general
+prompt-text = "> "
+hide-cursor = true
+history     = true
+
+# font
+font = /usr/share/fonts/TTF/JetBrainsMono-Regular.ttf
+font-size=14
+
+# style
+border-width = 0
+outline-width = 0 
+height = 540
+padding-left = 30
+padding-top = 20
+prompt-padding = 5
+result-spacing = 5
+width = 450
+
+# colors
+background-color = #1e1e2e
+selection-color = #50fa7b
+prompt-color = #50fa7b

@@ -4,11 +4,21 @@ import = ["~/.config/alacritty/dracula.toml"]
 [window]
 padding = { x = 5, y = 5 }
 decorations = "None"
-opacity = 0.90
+opacity = 0.95
 
 [font]
-normal = { family = "JetBrains Mono", style = "Medium" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Medium" }
 size = 12
 
 [cursor]
 style = {shape = "Beam", blinking = "On"}
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control | Shift"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"

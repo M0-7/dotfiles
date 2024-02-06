@@ -3,9 +3,9 @@
     "position": "top",
     "height": 35,
     "spacing": 5,
-    
+    "reload_style_on_change": true,
     "modules-left": ["hyprland/workspaces","tray"],
-    "modules-center": ["clock"],
+    "modules-center": ["clock","idle_inhibitor"],
     "modules-right": ["pulseaudio", "backlight", "network", "battery"],
 
     "hyprland/workspaces": {
@@ -21,7 +21,7 @@
         "tooltip-format": "{calendar}",
         "calendar": {
             "format": {
-                "today": "<span color='#ff5555'><b><u>{}</u></b></span>"
+                "today": "<span color='#ff5555'><b>{}</b></span>"
             }
         }
     },
@@ -55,8 +55,8 @@
         "format": "{icon} {volume}% {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": "{format_source}",
-        "format-source": " {volume}%",
+        "format-muted": "  {format_source}",
+        "format-source": "",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -68,6 +68,13 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": " ",
+        "deactivated": " "
+        },
     }
 }
 

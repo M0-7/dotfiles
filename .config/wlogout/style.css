@@ -1,5 +1,5 @@
 window {
-	font-family: JetBrains Mono;
+	font-family: JetBrainsMono Nerd Font;
 	background-color: rgba(30, 30, 46, 0.5);
 	color: #f8f8f2;
 	font-size: 14pt;
@@ -20,11 +20,11 @@ button:focus, button:active {
 	outline-style: none;
 }
 
-#suspend {
-    background-image: image(url("./sleep.png"));
+#logout {
+    background-image: image(url("./logout.png"));
 }
-#suspend:focus {
-    background-image: image(url("./sleep-hover.png"));
+#logout:focus {
+    background-image: image(url("./logout-hover.png"));
 }
 
 #shutdown {

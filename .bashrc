@@ -20,7 +20,7 @@ source /usr/share/bash-completion/bash_completion
 alias ip="ip --color=auto"
 alias cat="bat --style=grid"
 alias ls="eza --group-directories-first"
-alias ll="eza --long --group-directories-first"
+alias ll="eza --all --long --group-directories-first"
 alias grep='grep --color=auto'
 alias vim="nvim"
 alias sudo="sudo "
