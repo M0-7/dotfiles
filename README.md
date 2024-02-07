@@ -1,7 +1,9 @@
-## About
+# About
 Dotfiles for my hyprland + gnome setup. 
 
-### Applications and core components of my setup I Use
+![Screenshot](screenshot.png)
+
+## Applications and core components of my setup I Use
 - Element
 - Firefox
 - Transmission
@@ -27,3 +29,14 @@ Dotfiles for my hyprland + gnome setup.
 - btop,htop
 - frog
 - sddm
+
+## Installation
+
+#### Fonts
+Fonts were always kind of confusing so these are all the necessary fonts to get started.
+
+```
+$ sudo pacman -S noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome
+
+```
+
