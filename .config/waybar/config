@@ -4,14 +4,23 @@
     "height": 35,
     "spacing": 5,
     "reload_style_on_change": true,
-    "modules-left": ["hyprland/workspaces","tray"],
+    "modules-left": ["hyprland/workspaces","sway/workspaces","tray"],
     "modules-center": ["clock","idle_inhibitor"],
-    "modules-right": ["pulseaudio", "backlight", "network", "battery"],
-
+    "modules-right": ["pulseaudio", "backlight", "network", "battery","custom/power"],
+    
+    "custom/power": {
+        "format": " ",
+        "on-click": "wlogout",
+    },
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate"
+    },
+    "sway/workspaces" : {
+        "disable-scroll": true,
+        "all-outputs": true,
+
     },
     "tray": {
         "spacing": 10

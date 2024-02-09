@@ -6,6 +6,7 @@ font=JetBrainsMono Nerd Font
 width=400
 height=150
 padding=10
+on-touch=invoke-default-action
 icon-path=/usr/share/icons/Papirus-Dark/
 
 [urgency=high]

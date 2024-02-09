@@ -4,11 +4,11 @@ import = ["~/.config/alacritty/dracula.toml"]
 [window]
 padding = { x = 5, y = 5 }
 decorations = "None"
-opacity = 0.95
+opacity = 0.85
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Medium" }
-size = 12
+size = 16
 
 [cursor]
 style = {shape = "Beam", blinking = "On"}
