@@ -26,6 +26,7 @@ alias ll="eza --icons --all --long --group-directories-first"
 alias grep='grep --color=auto'
 alias vim="nvim"
 alias sudo="sudo "
+alias dots="cd ~/Documents/git/dotfiles"
 
 #Bash prompt
 export PS1="\[\e[34m\]\w\[\e[m\] \[\e[32m\]\[\e[m\] "

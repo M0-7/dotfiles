@@ -6,12 +6,8 @@
     "reload_style_on_change": true,
     "modules-left": ["hyprland/workspaces","sway/workspaces","tray"],
     "modules-center": ["clock","idle_inhibitor"],
-    "modules-right": ["pulseaudio", "backlight", "network", "battery","custom/power"],
+    "modules-right": ["pulseaudio", "backlight", "network", "battery"],
     
-    "custom/power": {
-        "format": " ",
-        "on-click": "wlogout",
-    },
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
@@ -26,7 +22,7 @@
         "spacing": 10
     },
     "clock": {
-        "format": " {:%a %b %d %H:%M}",
+        "format": "{:%a %b %d %H:%M}",
         "tooltip-format": "{calendar}",
         "calendar": {
             "format": {
