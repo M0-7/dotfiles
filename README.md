@@ -35,21 +35,19 @@ flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.gith
 1. Zram
 2. Cups
 3. UFW
-4. Themes drcula for gtk, breeze for qt.
+4. Themes (drcula for gtk, breeze for qt)
 5. 
 
+## Troubleshooting
 
-#### Fonts
+#### Flatpak apps look out of place
 
-Fonts were always kind of confusing so these are all the necessary fonts to get started. This is also included in the command above.
+Flatpak applications don't follow the native system theme in order to fix this you have to do [these steps](https://itsfoss.com/flatpak-app-apply-theme/).
+
+#### Missing fonts
+
+If you didn't use the command above then simply use this command to get started and install all the required fonts. 
 
 ```
 $ sudo pacman -S noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts
-```
-
-## Troubleshooting
-Because of portals crashing or some other stuff related to it apps like firefox took long time to start. In order to fix this i added this to `/usr/share/wayland-sessions/` 
-
-```
-Exec=dbus-launch --sh-syntax --exit-with-session Hyprland
 ```
