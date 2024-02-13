@@ -1,3 +1,3 @@
-[submodule "themes/gtk"]
-	path = themes/gtk
+[submodule "themes/Dracula"]
+	path = themes/Dracula
 	url = https://github.com/dracula/gtk
