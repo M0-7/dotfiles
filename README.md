@@ -22,7 +22,7 @@ Dotfiles for my hyprland setup.
 #### Arch packages
 
 ```
-yay -S protonvpn-cli hplip zram-generator wget neovim gnome-characters breeze powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools capitaine-cursors ly bash-completion qrencode ufw qbittorrent git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pcmanfm pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel bitwarden element-desktop github-cli swaylock swayidle mako polkit-gnome gnome-keyring udiskie cliphist btop qt5ct qt6ct xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver gvfs zip grim slurp flatpak gedit htop imv gnome-boxes torbrowser-launcher gnome-disk-utility zathura zathura-pdf-mupdf qt5-wayland qt6-wayland handlr font-manager apparmor python-notify2 python-psutil libreoffice-still mpv android-file-transfer gnome-calculator gnome-power-manager
+yay -S protonvpn-cli hplip fwupd zram-generator wget neovim gnome-characters breeze powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools capitaine-cursors ly bash-completion qrencode ufw qbittorrent git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pcmanfm pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel bitwarden element-desktop github-cli swaylock swayidle mako polkit-gnome gnome-keyring udiskie cliphist btop qt5ct qt6ct xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver gvfs zip grim slurp flatpak gedit htop imv gnome-boxes torbrowser-launcher gnome-disk-utility zathura zathura-pdf-mupdf qt5-wayland qt6-wayland handlr font-manager apparmor python-notify2 python-psutil libreoffice-still mpv android-file-transfer gnome-calculator gnome-power-manager
 ```
 
 #### Flatpak applications
@@ -36,7 +36,7 @@ flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.gith
 2. Cups
 3. UFW
 4. Themes (drcula for gtk, breeze for qt)
-5. 
+5. Mac Adress Randomisation
 
 ## Troubleshooting
 
