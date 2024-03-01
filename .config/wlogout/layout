@@ -14,7 +14,7 @@
 
 {
     "label" : "logout",
-    "action" : "sleep 0.07;hyprctl dispatch exit",
+    "action" : "hyprctl dispatch exit",
     "text" : "Logout",
     "keybind" : "l"
 }

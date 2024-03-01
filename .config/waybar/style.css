@@ -13,6 +13,11 @@ window#waybar {
     border-radius: 1px;
 }
 
+tooltip {
+    background: @background-darker;
+    color: @foreground;
+}
+
 #workspaces button {
     padding: 0 2px;
     background: @background;

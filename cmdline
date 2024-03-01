@@ -1,0 +1,1 @@
+rd.luks.name=149c024b-51bd-4add-88c3-b7643e54a5ba=root rd.luks.options=tpm2-device=auto root=/dev/mapper/root zswap.enabled=0 rw quiet lsm=landlock,lockdown,yama,integrity,apparmor,bpf lockdown=integrity
