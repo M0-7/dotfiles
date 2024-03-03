@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Debloat
+Comment=Remove those pesky things from your phone
+GenericName=Android debloater
+Keywords=Debloat;Android;UAD
+Exec=/home/user/Documents/git/UAD/Debloat
+Type=Application
+Icon=/usr/share/pixmaps/nemiver.png
+Terminal=false
