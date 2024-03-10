@@ -7,7 +7,7 @@ Dotfiles for my hyprland+gnome setup.
 
 - OS: Arch Linux
 - WM: Hyprland
-- Theme: [Dracula](https://draculatheme.com/gtk)
+- Theme: [Adw-gtk3](https://github.com/lassekongo83/adw-gtk3)
 - Font: Jetbrains Mono Nerd Font
 - Shell: Bash
 - Terminal: Alacritty
@@ -21,8 +21,14 @@ Dotfiles for my hyprland+gnome setup.
 
 #### Arch packages
 
+##### Hyprland+Gnome
 ```
-yay -S gnome gnome-tweaks protonvpn-cli hplip fwupd zram-generator neovim gnome-characters powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor xarchiver hyprpaper mako nwg-look obsidian pcmanfm pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel element-desktop github-cli swaylock swayidle mako polkit-gnome gnome-keyring udiskie cliphist btop xorg-xeyes vscodium-bin chromium wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes torbrowser-launcher gnome-disk-utility zathura zathura-pdf-mupdf font-manager apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
+yay -S gnome gnome-tweaks protonvpn-cli hplip fwupd zram-generator neovim gnome-characters powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel element-desktop github-cli swaylock swayidle mako polkit-gnome gnome-keyring udiskie cliphist btop xorg-xeyes vscodium-bin chromium wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver pcmanfm-gtk3 gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes torbrowser-launcher gnome-disk-utility zathura zathura-pdf-mupdf font-manager apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
+```
+
+##### Gnome
+```
+yay -S gnome gnome-tweaks protonvpn-cli hplip fwupd zram-generator neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts firefox pkgfile eza bat obsidian sbctl element-desktop github-cli btop xorg-xeyes vscodium-bin chromium speech-dispatcher hunspell-en_US cups neofetch unzip zip flatpak htop gnome-boxes torbrowser-launcher gnome-disk-utility apparmor libreoffice-still mpv gnome-power-manager
 ```
 
 #### Flatpak applications

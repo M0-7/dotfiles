@@ -1,3 +1,5 @@
 1N
+decrypt
+downloader
 mv
-checksum_v1 = 26786fc66e16bae880617b49db294c99
+checksum_v1 = 8593af96c8749c8b23b7395a71c4250a

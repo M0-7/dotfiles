@@ -1,35 +1,21 @@
-# Dracula theme for Alacritty
-# https://draculatheme.com/alacritty
-#
-# Color palette
-# https://spec.draculatheme.com
-#
-# Instructions
-# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
-
 [colors.primary]
-
-background = "#282a36"
+background = "#1d1f21"
 foreground = "#f8f8f2"
 bright_foreground = "#ffffff"
 
 [colors.cursor]
-
 text = "#282a36"
 cursor = "#f8f8f2"
 
 [colors.vi_mode_cursor]
-
 text = "CellBackground"
 cursor = "CellForeground"
 
 [colors.selection]
-
 text = "CellForeground"
 background = "#44475a"
 
 [colors.normal]
-
 black = "#21222c"
 red = "#ff5555"
 green = "#50fa7b"
