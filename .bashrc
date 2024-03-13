@@ -27,7 +27,8 @@ alias grep='grep --color=auto'
 alias vim="nvim"
 alias sudo="sudo "
 alias dots="cd ~/Documents/git/dotfiles"
+alias distrobox="distrobox --root"
 
 #Bash prompt
-export PS1="\[\e[34m\]\w\[\e[m\] \[\e[32m\]\[\e[m\] "
-#export PS1="\[\e[01;32m\]\u\[\e[m\]\[\e[01;32m\]@\[\e[m\]\[\e[01;32m\]\h\[\e[m\] \[\e[01;34m\]\W\[\e[m\] \\$ "
+#export PS1="\[\e[34m\]\w\[\e[m\] \[\e[32m\]\[\e[m\] "
+export PS1="\[\e[01;32m\]\u\[\e[m\]\[\e[01;32m\]@\[\e[m\]\[\e[01;32m\]\h\[\e[m\] \[\e[01;34m\]\W\[\e[m\] \\$ "

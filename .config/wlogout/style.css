@@ -1,6 +1,6 @@
 window {
 	font-family: JetBrainsMono Nerd Font;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.3);
 	color: #ffffff;
 	font-size: 14pt;
 }
@@ -20,26 +20,14 @@ button:focus, button:active {
 	outline-style: none;
 }
 
-#lock {
-    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
-}
-
 #logout {
-    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
-}
-
-#suspend {
-    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
-}
-
-#hibernate {
-    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+    background-image: image(url("/home/user/.config/wlogout/icons/logout.png"), url("/home/user/.config/wlogout/icons/logout.png"));
 }
 
 #shutdown {
-    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    background-image: image(url("/home/user/.config/wlogout/icons/shutdown.png"), url("/home/user/.config/wlogout/icons/shutdown.png"));
 }
 
 #reboot {
-    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/user/.config/wlogout/icons/reboot.png"), url("/home/user/.config/wlogout/icons/reboot.png"));
 }

@@ -1,26 +1,24 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 35,
+    "height": 36,
     "spacing": 5,
     "reload_style_on_change": true,
     "modules-left": ["hyprland/workspaces","privacy"],
     "modules-center": ["clock","idle_inhibitor"],
     "modules-right": ["pulseaudio", "backlight", "battery", "tray"],
-    
+
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate"
     },
-    "sway/workspaces" : {
-        "disable-scroll": true,
-        "all-outputs": true,
-    },
+
     "tray": {
         "icon-size":22,
         "spacing":5,
     },
+
     "clock": {
         "format": "{:%a %b %d %H:%M}",
         "tooltip-format": "{calendar}",
@@ -30,10 +28,12 @@
             }
         }
     },
+
     "backlight": {
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
+
     "battery": {
         "interval": 2,
         "states": {
@@ -47,6 +47,7 @@
         "tooltip": true,
         "tooltip-format":"{timeTo} ({power} W)" 
     },
+
     "network": {
         "interval": 1,
         "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
@@ -56,6 +57,7 @@
         "tooltip-format": "{ipaddr}",
         "on-click": "alacritty -e nmtui"
     },
+
     "pulseaudio": {
         "format": "{icon} {volume}% {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
@@ -64,44 +66,46 @@
         "format-source": "",
         "format-source-muted": "",
         "format-icons": {
-            "headphone": "",
+            "headphone": " ",
             "hands-free": "",
-            "headset": "",
+            "headset": " ",
             "phone": "",
             "portable": "",
-            "car": "",
+            "car": " ",
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
     },
+
     "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-        "activated": " ",
-        "deactivated": " "
+        "format": "{icon}",
+        "format-icons": {
+            "activated": " ",
+            "deactivated": " "
         },
     },
+
     "privacy": {
-	"icon-spacing": 4,
-	"icon-size": 18,
-	"transition-duration": 250,
-	"modules": [
-		{
-			"type": "screenshare",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		},
-		{
-			"type": "audio-out",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		},
-		{
-			"type": "audio-in",
-			"tooltip": true,
-			"tooltip-icon-size": 24
-		}
-	]
-},
+	    "icon-spacing": 4,
+	    "icon-size": 18,
+	    "transition-duration": 250,
+	    "modules": [
+		    {
+			    "type": "screenshare",
+			    "tooltip": true,
+			    "tooltip-icon-size": 24
+		    },
+		    {
+			    "type": "audio-out",
+			    "tooltip": true,
+			    "tooltip-icon-size": 24
+		    },
+		    {
+			    "type": "audio-in",
+			    "tooltip": true,
+			    "tooltip-icon-size": 24
+		    }
+	    ]
+    },
 }
 
