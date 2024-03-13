@@ -41,7 +41,7 @@ flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.gith
 1. Zram
 2. Cups
 3. UFW
-4. Theme (dracula for gtk)
+4. Theme (Adw-gtk-3 for gtk)
 5. Mac Adress Randomisation
 6. App Armor setup
 
