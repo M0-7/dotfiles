@@ -19,14 +19,14 @@ Dotfiles for my hyprland+gnome setup.
 
 ## Installation
 
-#### Prerequisite
+### Prerequisite
 In order to use the commands yay needs to be setup copy and paste the one liner below to set it up.
 
 ```
 mkdir -p ~/Documents/git/ && cd ~/Documents/git/ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 ```
 
-#### Arch packages
+### Arch packages
 
 ##### Hyprland+Gnome
 ```
@@ -43,13 +43,13 @@ yay -S hplip fwupd nss-mdns zram-generator neovim gnome-characters xdg-desktop-p
 yay -S gnome bluez bluez-utils gnome-tweaks hplip fwupd nss-mdns zram-generator neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts firefox pkgfile eza bat obsidian sbctl element-desktop github-cli btop xorg-xeyes vscodium-bin chromium speech-dispatcher hunspell-en_US cups neofetch unzip zip flatpak htop gnome-boxes torbrowser-launcher gnome-disk-utility apparmor libreoffice-still mpv gnome-power-manager
 ```
 
-#### Flatpak applications
+##### Flatpak applications
 
 ```
 flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.github.tchx84.Flatseal org.raspberrypi.rpi-imager org.localsend.localsend_app
 ```
 
-#### Things to setup
+## Things to setup
 1. Enable secure boot with sbctl and use TPM(PCRS:0+7)
 2. Cups + Enable avahi daemon service for discovery
 3. UFW (Ports 5353,22 and Transmission)
