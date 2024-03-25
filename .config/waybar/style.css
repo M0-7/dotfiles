@@ -37,14 +37,15 @@ window#waybar {
 #network,
 #pulseaudio {
     padding: 0 10px;
+    border-radius: 2px;
 }
 
 #clock {
     padding: 0 4px;
 }
 
-#battery {
-    border-radius: 2px;
+#tray {
+    padding-left:10px;
 }
 
 #battery.critical,
@@ -54,10 +55,6 @@ window#waybar {
 
 #battery.charging {
     background-color: #66BB6A;
-}
-
-#tray {
-    padding-left:10px;
 }
 
 #tray > .passive {
