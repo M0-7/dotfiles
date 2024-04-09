@@ -12,8 +12,6 @@ window#waybar {
 #workspaces button {
     padding: 0 2px;
     border-radius: 2px;
-    background: #1d1f21;
-    color: #ffffff;
 }
 
 #workspaces button.focused {
@@ -27,7 +25,7 @@ window#waybar {
 }
 
 #workspaces button.urgent {
-    background: #F44336;;
+    border-bottom: 2px solid #F44336;
 }
 
 #clock,
