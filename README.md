@@ -58,14 +58,15 @@ flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.gith
 6. App Armor setup
 7. Edit /boot/loader/loader.conf
 8. Bluetooth setup
-9. Create a Study profile and use Betterfox
+9. Flatpak cursor issue [workaround](https://wiki.archlinux.org/title/Flatpak)
 10. Yay setup
 
 ## Troubleshooting
 
 #### Flatpak apps look out of place
 
-Flatpak applications don't follow the native system theme in order to fix this you have to do [these steps](https://itsfoss.com/flatpak-app-apply-theme/).
+- Flatpak applications don't follow the native system theme, in order to fix this you have to install [this](https://github.com/lassekongo83/adw-gtk3).
+- Flatpak cursor doesnt look right follow [this step](https://wiki.archlinux.org/title/Flatpak)
 
 #### Missing fonts
 
