@@ -58,7 +58,7 @@ flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.gith
 6. App Armor setup
 7. Edit /boot/loader/loader.conf
 8. Bluetooth setup
-9. Flatpak cursor issue [workaround](https://wiki.archlinux.org/title/Flatpak)
+9. Add myself to: lp and video groups
 10. Yay setup
 
 ## Troubleshooting
