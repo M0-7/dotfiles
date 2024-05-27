@@ -11,4 +11,5 @@ set relativenumber
 set mouse=a
 syntax on
 set wildmode=longest,list
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
+colorscheme slate
