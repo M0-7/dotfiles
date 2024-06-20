@@ -30,36 +30,36 @@ mkdir -p ~/Documents/git/ && cd ~/Documents/git/ sudo pacman -S --needed git bas
 
 ##### Hyprland+Gnome
 ```
-yay -S gnome reflector gnome-tweaks hplip dosfstools ntfs-3g xdg-desktop-portal-hyprland fwupd nss-mdns neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git system-config-printer xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist btop xorg-xeyes vscodium-bin chromium wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver pcmanfm-gtk3 gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
+yay -S power-profiles-daemon gnome gnome-themes-extra man reflector gnome-tweaks hplip dosfstools ntfs-3g xdg-desktop-portal-hyprland fwupd nss-mdns neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode firewalld transmission-gtk git system-config-printer xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver pcmanfm-gtk3 gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
 ```
 
 ##### Hyprland
 ```
-yay -S hplip fwupd reflector dosfstools ntfs-3g nss-mdns neovim gnome-characters xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-desktop-portal powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts system-config-printer hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist btop xorg-xeyes vscodium-bin chromium wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver pcmanfm-gtk3 gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
+yay -S hplip fwupd reflector power-profiles-daemon man dosfstools ntfs-3g nss-mdns neovim gnome-characters xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-desktop-portal powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode firewalld transmission-gtk git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts system-config-printer hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look obsidian pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_US cups bluez bluez-utils blueman neofetch xarchiver pcmanfm-gtk3 gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-power-manager
 ```
 
 ##### Gnome
 ```
-yay -S gnome bluez bluez-utils reflector gnome-tweaks hplip dosfstools ntfs-3g fwupd nss-mdns neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw transmission-gtk git noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts firefox pkgfile eza bat obsidian sbctl fractal github-cli btop xorg-xeyes vscodium-bin chromium speech-dispatcher hunspell-en_US cups neofetch unzip zip flatpak htop gnome-boxes torbrowser-launcher gnome-disk-utility apparmor libreoffice-still mpv gnome-power-manager
+yay -S gnome gnome-themes-extra power-profiles-daemon man bluez bluez-utils reflector gnome-tweaks hplip dosfstools ntfs-3g fwupd nss-mdns neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode firewalld transmission-gtk git noto-fonts noto-fonts-emoji ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts firefox pkgfile eza bat obsidian sbctl fractal github-cli xorg-xeyes vscodium-bin brave-bin speech-dispatcher hunspell-en_US cups neofetch unzip zip flatpak htop gnome-boxes torbrowser-launcher gnome-disk-utility apparmor libreoffice-still mpv gnome-power-manager
 ```
 
 ##### Flatpak applications
 
 ```
-flatpak install flathub com.obsproject.Studio com.github.tenderowl.frog com.github.tchx84.Flatseal org.raspberrypi.rpi-imager org.localsend.localsend_app
+flatpak install flathub com.stremio.Stremio io.github.shiftey.Desktop com.github.tenderowl.frog com.github.tchx84.Flatseal org.raspberrypi.rpi-imager org.localsend.localsend_app
 ```
 
 ## Things to setup
 1. Enable secure boot with sbctl and use TPM(PCRS:0+7)
 2. Cups + Enable avahi daemon service for discovery
-3. UFW (Ports 5353,22 and Transmission)
+3. Firewalld (Add port 53317)
 4. Theme (Adw-gtk-3 for gtk)
 5. Mac Adress Randomisation
 6. App Armor setup
-7. Edit /boot/loader/loader.conf
+7. Edit /boot/loader/loader.conf and enable bootloader update service
 8. Bluetooth setup
 9. Add myself to: lp and video groups
-10. Yay setup
+10. Change X11 keyboard layout
 11. Reflector setup
 
 ## Troubleshooting
