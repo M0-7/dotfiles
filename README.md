@@ -52,15 +52,16 @@ flatpak install flathub com.stremio.Stremio io.github.shiftey.Desktop com.github
 ## Things to setup
 1. Enable secure boot with sbctl and use TPM(PCRS:0+7)
 2. Cups + Enable avahi daemon service for discovery
-3. Firewalld (Add port 53317)
-4. Theme (Adw-gtk-3 for gtk)
-5. Mac Adress Randomisation
-6. App Armor setup
-7. Edit /boot/loader/loader.conf and enable bootloader update service
-8. Bluetooth setup
-9. Add myself to: lp and video groups
-10. Change X11 keyboard layout
-11. Reflector setup
+3. Enable systemd-resolved and disable mDns for caching dns
+4. Firewalld (Add port 53317)
+5. Theme (Adw-gtk-3 for gtk)
+6. Mac Adress Randomisation
+7. App Armor setup
+8. Edit /boot/loader/loader.conf and enable bootloader update service
+9. Bluetooth setup
+10. Add myself to: lp and video groups
+11. Change X11 keyboard layout
+12. Reflector setup
 
 ## Troubleshooting
 
