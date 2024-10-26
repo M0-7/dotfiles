@@ -28,6 +28,9 @@ alias vim="nvim"
 alias sudo="sudo "
 alias dots="cd ~/Documents/git/dotfiles"
 alias neofetch="fastfetch"
+alias cd="z"
+# Zoxide
+eval "$(zoxide init bash)"
 
 #Bash prompt
 #export PS1="\[\e[34m\]\w\[\e[m\] \[\e[32m\]\[\e[m\] "

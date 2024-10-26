@@ -21,13 +21,13 @@ button:focus, button:active {
 }
 
 #logout {
-    background-image: image(url("/home/user/.config/wlogout/icons/logout.png"), url("/home/user/.config/wlogout/icons/logout.png"));
+    background-image: image(url("/home/moaz/.config/wlogout/icons/logout.png"), url("/home/moaz/.config/wlogout/icons/logout.png"));
 }
 
 #shutdown {
-    background-image: image(url("/home/user/.config/wlogout/icons/shutdown.png"), url("/home/user/.config/wlogout/icons/shutdown.png"));
+    background-image: image(url("/home/moaz/.config/wlogout/icons/shutdown.png"), url("/home/moaz/.config/wlogout/icons/shutdown.png"));
 }
 
 #reboot {
-    background-image: image(url("/home/user/.config/wlogout/icons/reboot.png"), url("/home/user/.config/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/moaz/.config/wlogout/icons/reboot.png"), url("/home/user/.config/wlogout/icons/reboot.png"));
 }
