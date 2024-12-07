@@ -16,7 +16,12 @@ set clipboard+=unnamedplus
 
 " Plugins
 call plug#begin()
+
 Plug 'ellisonleao/gruvbox.nvim'
+Plug 'vim-airline/vim-airline'
 Plug 'xiyaowong/transparent.nvim'
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 colorscheme gruvbox
+let g:airline_theme = 'gruvbox'
