@@ -1,6 +1,5 @@
-background-color=#1d2021
-border-color=#b8bb26
-text-color=#ebdbb2
+background-color=#1d1f21
+border-size=0
 border-radius=5
 default-timeout=3500
 font=JetBrainsMono Nerd Font
@@ -12,10 +11,4 @@ icon-path=/usr/share/icons/Papirus-Dark/
 
 [urgency=high]
 border-size=2
-border-color=#fb4934
-
-[app-name="time"]
-width=280
-text-alignment=center
-border-color=#d3869b
-anchor=top-center
+border-color=#ff5555

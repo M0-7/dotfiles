@@ -20,3 +20,4 @@ Plug 'ellisonleao/gruvbox.nvim'
 Plug 'xiyaowong/transparent.nvim'
 call plug#end()
 colorscheme gruvbox
+set termguicolors
