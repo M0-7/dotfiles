@@ -23,7 +23,7 @@ Dotfiles for my hyprland+gnome setup.
 In order to use the commands yay needs to be setup copy and paste the one liner below to set it up.
 
 ```
-mkdir -p ~/Documents/git/ && cd ~/Documents/git/ && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+mkdir -p ~/Documents/git/ && cd ~/Documents/git/ && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
 ### Arch packages
