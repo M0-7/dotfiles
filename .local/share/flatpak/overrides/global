@@ -1,7 +1,0 @@
-[Context]
-filesystems=xdg-config/gtk-3.0:ro;/home/user/.icons:ro;xdg-config/gtk-4.0;/usr/share/icons:ro;
-
-[Environment]
-XCURSOR_PATH=~/.icons
-XCURSOR_SIZE=24
-XCURSOR_THEME=Adwaita

@@ -1,10 +1,10 @@
 {
-    "workbench.statusBar.visible": false,
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "files.autoSave": "onFocusChange",
     "editor.fontSize": 16,
     "editor.fontFamily": "'JetBrainsMonoNL Nerd Font Mono', 'monospace', monospace",
     "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
-    "window.titleBarStyle": "custom",
-    "python.createEnvironment.trigger": "off"
+    "workbench.statusBar.visible": false,
+    "chat.commandCenter.enabled": false,
+    "window.titleBarStyle": "custom"
 }
