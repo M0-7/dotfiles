@@ -28,7 +28,7 @@ anchor=top-center
 default-timeout=20000
 ignore-timeout=1
 
-[app-name="bluetooth"]
+[app-name="connectivity"]
 width=280
 text-alignment=center
 anchor=top-center
