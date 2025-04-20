@@ -8,11 +8,11 @@ Dotfiles for my hyprland+gnome setup.
 - OS: Arch Linux
 - WM: Hyprland
 - Theme: [Adw-gtk3](https://github.com/lassekongo83/adw-gtk3)
-- Font: Jetbrains Mono Nerd Font
+- Font: Jetbrains Mono
 - Shell: Bash
 - Terminal: Alacritty
 - Bar: Waybar
-- App launcher: Fuzzel
+- App launcher: Rofi
 - Icons: Papirus Icon Theme
 - [Wallpaper](https://raw.githubusercontent.com/M0-7/dotfiles/main/Wallpapers/wallpaper.jpg)
 - Browser: Firefox with [Betterfox](https://github.com/yokoffing/BetterFox)
@@ -28,14 +28,9 @@ mkdir -p ~/Documents/git/ && cd ~/Documents/git/ && sudo pacman -S --needed git 
 
 ### Arch packages
 
-##### Hyprland+Gnome
-```
-yay -S power-profiles-daemon obsidian gnome gnome-themes-extra man reflector gnome-tweaks hplip dosfstools ntfs-3g xdg-desktop-portal-hyprland fwupd nss-mdns neovim powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw qbittorrent git system-config-printer xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts inter-font hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look zoxide fzf pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_gb hunspell-en_us cups bluez bluez-utils blueman fastfetch tumbler thunar-volman thunar-archive-plugin thunar gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-firmware
-```
-
 ##### Hyprland
 ```
-yay -S hplip fwupd obsidian reflector power-profiles-daemon man dosfstools ntfs-3g nss-mdns neovim gnome-characters xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-desktop-portal powertop intel-gpu-tools intel-media-driver ffmpeg ffmpegthumbnailer android-tools bash-completion qrencode ufw qbittorrent git xdg-user-dirs-gtk xdg-user-dirs noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts inter-font system-config-printer hyprland papirus-icon-theme firefox alacritty pkgfile eza bat waybar dconf-editor hyprpaper mako nwg-look zoxide fzf pavucontrol swaylock sbctl brightnessctl wl-clipboard network-manager-applet blueman fuzzel github-cli swaylock hypridle mako polkit-gnome gnome-keyring udiskie cliphist xorg-xeyes vscodium-bin brave-bin wlogout speech-dispatcher hunspell-en_gb hunspell-en_us cups bluez bluez-utils blueman fastfetch tumbler thunar-volman thunar-archive-plugin thunar gvfs gvfs-mtp unzip zip grim slurp flatpak gedit htop imv gnome-boxes gnome-disk-utility zathura zathura-pdf-mupdf gnome-font-viewer apparmor libreoffice-still mpv gnome-calculator gnome-firmware
+yay -S 7zip adw-gtk-theme alacritty android-tools apparmor baobab base base-devel bash-completion bat bibata-cursor-theme-bin blueman bluez bluez-utils brightnessctl catfish chromium code cups cups-pdf dconf-editor dosfstools efibootmgr eza fastfetch ffmpegthumbnailer firefox flatpak fwupd fzf git github-cli gnome-boxes gnome-calculator gnome-characters gnome-clocks gnome-disk-utility gnome-keyring gnome-text-editor grim gst-plugin-pipewire gtk-engine-murrine gvfs gvfs-mtp gvfs-smb hplip htop hunspell-en_gb hunspell-en_us hypridle hyprland hyprlock hyprpaper hyprsunset imv intel-gpu-tools intel-media-driver intel-ucode inter-font kitty libgsf libpulse libreoffice-still libva-utils linux linux-firmware linux-lts localsend-bin mako man-db mpv neovim networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nss-mdns ntfs-3g nwg-look obsidian otf-font-awesome papirus-icon-theme pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse pkgfile playerctl polkit-gnome poppler-glib power-profiles-daemon powertop qrencode reflector rofi-wayland sbctl slurp snapshot sof-firmware speech-dispatcher swaylock syncthing system-config-printer thermald thunar thunar-archive-plugin transmission-gtk ttf-jetbrains-mono ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono tumbler udiskie ufw unrar unzip vpl-gpu-rt vulkan-intel waybar webp-pixbuf-loader wireplumber wl-clipboard xarchiver xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-hyprland xdg-user-dirs xdg-user-dirs-gtk xorg-xeyes yay zip zoxide zram-generator
 ```
 
 ##### Gnome
@@ -46,7 +41,7 @@ yay -S gnome obsidian gnome-themes-extra power-profiles-daemon man bluez bluez-u
 ##### Flatpak applications
 
 ```
-flatpak install flathub com.stremio.Stremio md.obsidian.Obsidian im.riot.Riot com.mattjakeman.ExtensionManager net.nokyan.Resources com.github.tchx84.Flatseal org.raspberrypi.rpi-imager org.localsend.localsend_app
+flatpak install flathub com.stremio.Stremio com.mattjakeman.ExtensionManager com.github.tchx84.Flatseal org.localsend.localsend_app
 ```
 
 ## Things to setup
@@ -62,7 +57,7 @@ flatpak install flathub com.stremio.Stremio md.obsidian.Obsidian im.riot.Riot co
 10. Change X11 keyboard layout
 11. Reflector setup
 12. Add pacman eye candy options
-13. Disable kernel watchdog and zram optimisation
+13. Disable kernel watchdog
 
 ## Troubleshooting
 
@@ -76,5 +71,5 @@ flatpak install flathub com.stremio.Stremio md.obsidian.Obsidian im.riot.Riot co
 If you didn't use the command above then simply use this command to get started and install all the required fonts. 
 
 ```
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts inter-font
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono otf-font-awesome gnu-free-fonts inter-font
 ```
