@@ -6,4 +6,4 @@
 if [[ $(tty) == "/dev/tty1" ]]; then Hyprland; fi
 gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:close'
 gsettings set org.gnome.desktop.interface icon-theme 'Adwaita'
-gsettings set org.gnome.desktop.interface cursor 'Adwaita'
+gsettings set org.gnome.desktop.interface cursor-theme 'Adwaita'
