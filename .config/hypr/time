@@ -1,1 +1,0 @@
-notify-send -h string:x-canonical-private-synchronous:audio --app-name=time --expire-time=2000 "$(date +'%a,%e %b, %Y %H:%M:%S')"

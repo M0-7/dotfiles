@@ -1,12 +1,11 @@
-
 [window]
 padding = { x = 5, y = 5 }
 decorations = "None"
-opacity = 0.75
+opacity = 0.9
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Medium" }
-size = 15
+normal = { family = "JetBrains Mono", style = "Medium" }
+size = 13
 
 [cursor]
 style = {shape = "Beam", blinking = "On"}
@@ -23,4 +22,4 @@ mods = "Control"
 
 [general]
 # Imports
-import = ["~/.config/alacritty/colors.toml"]
+import = ["~/.config/alacritty/gruvbox_dark.toml"]

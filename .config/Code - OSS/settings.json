@@ -1,0 +1,12 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "chat.commandCenter.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "window.titleBarStyle": "native"
+}

@@ -3,7 +3,7 @@ border-color=#b8bb26
 text-color=#ebdbb2
 border-radius=5
 default-timeout=3500
-font=JetBrainsMono Nerd Font
+font=JetBrains Mono
 width=400
 height=150
 padding=10
@@ -15,7 +15,21 @@ border-size=2
 border-color=#fb4934
 
 [app-name="time"]
-width=280
+width=305
 text-alignment=center
 border-color=#d3869b
 anchor=top-center
+layer=overlay
+
+[app-name="battery"]
+width=280
+text-alignment=center
+anchor=top-center
+default-timeout=20000
+ignore-timeout=1
+
+[app-name="bluetooth"]
+width=280
+text-alignment=center
+anchor=top-center
+border-color=#83a598
