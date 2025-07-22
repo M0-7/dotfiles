@@ -58,6 +58,7 @@ flatpak install flathub com.stremio.Stremio com.mattjakeman.ExtensionManager com
 11. Reflector setup
 12. Add pacman eye candy options
 13. Disable kernel watchdog
+14. Enable systemd resolved
 
 ## Troubleshooting
 
